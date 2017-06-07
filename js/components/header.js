@@ -6,6 +6,5 @@ const Header = (update) => {
   const icon = $('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
 
   header.append(title);
-
   return header;
 }

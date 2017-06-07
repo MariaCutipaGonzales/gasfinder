@@ -5,15 +5,42 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.wrapper{
+  background-color: #F44336;
+  height: 120px;
+}
+
 header {
   color: #fff;
   font-size: 18px;
-  height: 56px;
   line-height: 56px;
-  padding-left: 16px;
-  background-color: #F44336;
 }
 
 header .fa-chevron-left {
   margin-right: 16px;
+}
+
+.search .fa-search{
+  padding: 10px;
+  font-size: 1.5em;
+  color: #666;
+}
+
+.search{
+  background-color: white;
+  width: 90%;
+  border: 1px solid silver;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+input[type="text"]{
+  outline: none;
+  border:none!important;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search input[type="text"]:focus{
+  border:none!important;
 }
